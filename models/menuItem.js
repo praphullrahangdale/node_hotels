@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 //Define the menuItem schema
 const menuItemSchema = mongoose.Schema({
-    nameO: {
+    name: {
         type : String,
         required : true
     },
@@ -22,11 +22,7 @@ const menuItemSchema = mongoose.Schema({
     ingredients: {
         type : [String],
         default : []
-    },
-    name: {
-        type : Number,
-        default : 0
-    },
+    }
 })
 
 const MenuItem = mongoose.model('MenuItem', menuItemSchema)
