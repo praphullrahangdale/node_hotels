@@ -73,7 +73,7 @@ The `Person` data model represents information about staff members in the hotel.
   "address": "123 Main Street",
   "salary": 30000
 }
-
+```
 # Menu Item Data Model
 
 The **MenuItem** data model represents information about menu items available in the hotel.
@@ -98,4 +98,4 @@ The **MenuItem** data model represents information about menu items available in
   "ingredients": ["chicken", "spices", "vegetables"],
   "num_sales": 50
 }
-
+```
